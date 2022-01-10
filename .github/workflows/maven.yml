@@ -23,10 +23,10 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package -Dmaven.test.skip --file pom.xml
     - name: Test with Maven
       run: mvn -B test
     - name: Deploy
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml -Dmaven.test.skip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
