@@ -13,22 +13,6 @@ public class Main {
 
 
     public static void main(String[] args) throws SQLException {
-        Connection con = getConnection();
-        Context context = new Context(con);
-        //String query = "insert into cliente (cedula, nombre, apellido, fecha_nac, sexo) values(?, ?, ?, ?, ?)";
-        //String query = "truncate table prueba.cliente";
-        String query = "insert into cliente (cedula, nombre, apellido, fecha_nac, sexo) values('0927587007', 'Carlos'," +
-                " 'Gallardo', '2002-06-30', 'H')";
-
-
-       //String query = "select * from cliente where cedula = ?";
-
-      // context.resulSet(query, "0927587006");
-
-        context.exec(query);
-
-        System.out.println(1);
-
 
     }
 

@@ -6,10 +6,9 @@
 
   <groupId>com.softlutions</groupId>
   <artifactId>context</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <name>context</name>
-  <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <distributionManagement>
@@ -24,7 +23,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <sonar.organization>douglas409</sonar.organization>
+    <sonar.organization>softlutions-dev</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
