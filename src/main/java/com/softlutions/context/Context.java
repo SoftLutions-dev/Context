@@ -119,7 +119,7 @@ public class Context {
     }
 
     private void executeResulset(ResultSet rs) throws SQLException {
-        List<String >listRow = new ArrayList<>();
+        List<String> listRow;
         resulset.setMetaData(rs.getMetaData());
 
         while (rs.next()){
