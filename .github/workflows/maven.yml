@@ -42,6 +42,7 @@ jobs:
       run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=SoftLutions-dev_Context    
 
   deploy:
+  
     runs-on: ubuntu-latest
 
     steps:
