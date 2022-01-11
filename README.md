@@ -1,6 +1,8 @@
 # README #
 
 Este repo contiene clase utilitaria para la conexion en BD
+
+
 ### What is this repository for? ###
 
 * Quick summary
