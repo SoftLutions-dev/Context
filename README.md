@@ -28,3 +28,4 @@ Este repo contiene clase utilitaria para la conexion en BD
 
 * Repo owner or admin
 * Other community or team contact
+* Edit
